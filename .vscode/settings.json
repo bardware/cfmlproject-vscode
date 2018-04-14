@@ -1,0 +1,18 @@
+{
+	"editor.formatOnSave": true,
+	"[javascript]": {
+		"editor.formatOnSave": false
+	},
+	"eslint.enable": true,
+	"eslint.autoFixOnSave": true,
+	"eslint.alwaysShowStatus": true,
+	"prettier.disableLanguages": ["javascript"],
+	"cflint.enabled": true,
+	"cflint.runModes": {
+		"onOpen": true,
+		"onSave": true,
+		"onChange": true
+	},
+	"cflint.jarPath": "C:\\msys64\\home\\bd\\src\\github\\cflint\\CFLint\\build\\libs\\CFLint-1.3.0-all.jar",
+	"cflint.javaPath": "c:\\program files\\java"
+}

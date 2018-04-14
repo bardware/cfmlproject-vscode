@@ -1,0 +1,16 @@
+{
+	"web": {
+		"rewrites": {
+			"config": ".htaccess",
+			"enable": true
+		}
+	},
+	"jvm": {
+		"javaHome": "C:\\Program Files\\Java"
+	},
+	"app": {
+		"cfengine": "lucee@5",
+		"libDirs": "libs"
+	},
+	"name": "cfmlproject"
+}
