@@ -1,18 +1,30 @@
 {
-	"editor.formatOnSave": true,
-	"[javascript]": {
-		"editor.formatOnSave": false
-	},
 	"eslint.enable": true,
-	"eslint.autoFixOnSave": true,
+	"eslint.debug": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
 	"eslint.alwaysShowStatus": true,
-	"prettier.disableLanguages": ["javascript"],
+	"eslint.validate": ["javascript", "json", "html", "cfml"],
+	"eslint.run": "onSave",
+	"editor.formatOnSave": false,
+	"peacock.affectActivityBar": true,
+	"peacock.affectTitleBar": true,
+	"peacock.affectStatusBar": true,
+	"peacock.favoriteColors": [],
+	"cflint.jarPath": "C:\\msys64\\home\\bd\\src\\github\\cflint\\CFLint\\build\\libs\\CFLint-1.5.1-SNAPSHOT-all.jar",
+	"files.associations": {
+		"package.json": "json",
+		".eslintrc": "json",
+		".prettierrc": "json",
+		"settings.json": "json",
+		".cflintrc": "json"
+	},
 	"cflint.enabled": true,
 	"cflint.runModes": {
 		"onOpen": true,
 		"onSave": true,
 		"onChange": true
 	},
-	"cflint.jarPath": "C:\\msys64\\home\\bd\\src\\github\\cflint\\CFLint\\build\\libs\\CFLint-1.3.0-all.jar",
-	"cflint.javaPath": "c:\\program files\\java"
+	"workbench.colorCustomizations": {}
 }

@@ -1,11 +1,13 @@
 {
 	"printWidth": 120,
+	"bracketSpacing": true,
+	"singleQuote": true,
+	"semi": true,
 	"useTabs": true,
 	"tabWidth": 4,
-	"singleQuote": true,
 	"overrides": [
 		{
-			"files": [".prettierrc", ".eslintrc"],
+			"files": [".prettierrc", ".eslintrc", ".vscode\\settings.json" ],
 			"options": { "parser": "json" }
 		},
 		{

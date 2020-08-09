@@ -8,7 +8,9 @@ This is a Template for `CFML` projects that are intended to be developed using `
 
 #### Feature
 
+*   `aaron-bond.better-comments`
 *   `christian-kohler.path-intellisense`
+*   `CoenraadS.bracket-pair-colorizer-2`
 *   `CoenraadS.disableligatures`
 *   `eamodio.gitlens`
 *   `EditorConfig.EditorConfig`
@@ -16,9 +18,11 @@ This is a Template for `CFML` projects that are intended to be developed using `
 *   `mrmlnc.vscode-apache`
 *   `mrmlnc.vscode-duplicate`
 *   `patrys.vscode-code-outline`
+*   `pflannery.vscode-versionlens`
 *   `shinnn.stylelint`
 *   `Tyriar.shell-launcher`
 *   `wayou.vscode-todo-highlight`
+*   `Gruntfuggly.todo-tree`
 
 #### Design (Icons/Theme)
 
@@ -43,3 +47,10 @@ This is a Template for `CFML` projects that are intended to be developed using `
 *   `formulahendry.auto-close-tag`
 *   `vincaslt.highlight-matching-tag`
 *   `Zignd.html-css-class-completion`
+
+### prettier/ESLint
+
+*   `npm install --save-dev eslint`
+*   `npm install --save-dev prettier`
+*   `npm install --save-dev eslint-config-prettier eslint-plugin-prettier`
+
