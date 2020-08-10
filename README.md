@@ -53,4 +53,5 @@ This is a Template for `CFML` projects that are intended to be developed using `
 *   `npm install --save-dev eslint`
 *   `npm install --save-dev prettier`
 *   `npm install --save-dev eslint-config-prettier eslint-plugin-prettier`
+*   `npm install --save-dev eslint-plugin-html eslint-plugin-json`
 
