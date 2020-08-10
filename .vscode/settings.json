@@ -8,6 +8,9 @@
 	"eslint.validate": ["javascript", "json", "html", "cfml"],
 	"eslint.run": "onSave",
 	"editor.formatOnSave": false,
+	"[scss]": {
+		"editor.formatOnSave": true,
+	},	
 	"peacock.affectActivityBar": true,
 	"peacock.affectTitleBar": true,
 	"peacock.affectStatusBar": true,
